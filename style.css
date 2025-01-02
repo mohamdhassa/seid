@@ -1,0 +1,145 @@
+/* CSS */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+section {
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 15px;
+    transition: opacity 1s, transform 1s;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+header {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    gap: 20px;
+}
+
+.text-container {
+    flex: 1.2;
+    text-align: left;
+}
+
+header .profile-image {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+header .logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.white-box {
+    display: inline-block;
+    background-color: #000000;
+    color: #fffafa;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+header p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.art-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.art-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.art-item {
+    width: 300px;
+    text-align: center;
+}
+
+.art-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #000;
+    padding: 30px;
+    text-align: left;
+    width: 100%;
+}
+
+footer h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+footer .contact-details {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+footer a.contact-btn {
+    display: inline-block;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+footer a.contact-btn:hover {
+    background: #000;
+}
