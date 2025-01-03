@@ -17,7 +17,7 @@ section {
     padding: 20px 15px;
     transition: opacity 1s, transform 1s;
 }
-
+ 
 .hidden {
     opacity: 0;
     transform: translateY(50px);
@@ -138,8 +138,21 @@ footer a.contact-btn {
     background: #000;
     padding: 15px 30px;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 footer a.contact-btn:hover {
-    background: #000;
+    background: #222;
+}
+
+.social-links {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
 }
