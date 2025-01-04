@@ -32,7 +32,6 @@ header {
     width: 100%;
     max-width: 1200px;
     margin: auto;
-    padding: 10px;
 }
 
 .intro-container {
@@ -42,6 +41,7 @@ header {
     justify-content: center;
     text-align: center;
     gap: 20px;
+    width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -64,6 +64,13 @@ header .profile-image {
     width: 250px;
     height: auto;
     border-radius: 50%;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    header .profile-image {
+        width: 350px;
+    }
 }
 
 header .logo {
@@ -72,14 +79,32 @@ header .logo {
     margin-bottom: 20px;
 }
 
+@media (min-width: 768px) {
+    header .logo {
+        width: 200px;
+    }
+}
+
 header h1 {
-    font-size: 2em;
+    font-size: 1.8em;
     margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
 }
 
 header h2 {
     font-size: 1.2em;
     margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+    header h2 {
+        font-size: 1.5em;
+    }
 }
 
 .white-box {
@@ -92,15 +117,33 @@ header h2 {
     text-align: center;
 }
 
+@media (min-width: 768px) {
+    .white-box {
+        font-size: 1.2em;
+    }
+}
+
 header p {
     font-size: 1em;
     line-height: 1.5;
     margin-bottom: 8px;
 }
 
+@media (min-width: 768px) {
+    header p {
+        font-size: 1.2em;
+    }
+}
+
 .art-section h2 {
     font-size: 2em;
     margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .art-section h2 {
+        font-size: 2.5em;
+    }
 }
 
 .art-gallery {
@@ -140,9 +183,21 @@ footer h2 {
     margin-bottom: 20px;
 }
 
+@media (min-width: 768px) {
+    footer h2 {
+        font-size: 2em;
+    }
+}
+
 footer .contact-details {
     font-size: 1em;
     margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    footer .contact-details {
+        font-size: 1.2em;
+    }
 }
 
 footer a.contact-btn {
@@ -158,6 +213,13 @@ footer a.contact-btn {
 
 footer a.contact-btn:hover {
     background: #555;
+}
+
+@media (min-width: 768px) {
+    footer a.contact-btn {
+        font-size: 1.5em;
+        padding: 15px 30px;
+    }
 }
 
 .social-links {
@@ -179,7 +241,19 @@ footer a.contact-btn:hover {
     line-height: 1.5;
 }
 
+@media (min-width: 768px) {
+    .social-links p {
+        font-size: 1.2em;
+    }
+}
+
 .social-logo {
     font-size: 1.2em;
     margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+    .social-logo {
+        font-size: 1.5em;
+    }
 }
