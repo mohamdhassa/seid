@@ -66,21 +66,22 @@ header {
 }
 
 header .profile-image {
-    width: 40%;
-    margin-left:80px;
+    width: 50%;
+    margin-left:-90px;
     max-width: 400px;
+    margin-bottom:90px;
     height: auto;
     border-radius: 50%;
 }
 
 header h1 {
     font-size: 3em;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 header h2 {
     font-size: 1.5em;
-    margin-bottom: 15px;
+    margin-bottom: 100px;
 }
 
 .white-box {
@@ -107,7 +108,7 @@ header p {
 .art-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
+    gap: -10px;
     max-width: 1200px;
     margin: auto;
 }
@@ -137,7 +138,7 @@ footer h2 {
 
 footer .contact-details {
     font-size: 1em;
-    margin-bottom: 20px;
+    margin-bottom: 200px;
 }
 
 footer a.contact-btn {
@@ -184,11 +185,12 @@ footer a.contact-btn:hover {
     }
 
     .logo {
-        width: 15%;
+        width: 50%;
+        top:-90px;
     }
 
     .art-gallery {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
