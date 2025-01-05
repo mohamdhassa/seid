@@ -1,6 +1,6 @@
 /* CSS */
 body {
-    margin: 30px;
+    margin: 10px;
     font-family: 'Roboto', sans-serif;
     background-color: #000;
     color: #fff;
@@ -14,7 +14,7 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 50px 10px;
+    padding: 10px 10px;
     transition: opacity 1s ease-in-out, transform 1s ease-in-out;
 }
 
@@ -41,10 +41,10 @@ header {
 
 .logo {
     position: absolute;
-    top: -15px;
+    top: -25px;
     left: 20px;
     width: 10%;
-    max-width: 200px;
+    max-width: 220px;
     height: auto;
 }
 
@@ -60,19 +60,21 @@ header {
 
 .text-container {
     text-align: left;
-    margin-bottom:-70px;
+    left:200px;
+    margin-bottom:-80px;
     flex: 1;
 }
 
 header .profile-image {
     width: 40%;
+    margin-left:80px;
     max-width: 400px;
     height: auto;
     border-radius: 50%;
 }
 
 header h1 {
-    font-size: 4em;
+    font-size: 3em;
     margin-bottom: 10px;
 }
 
