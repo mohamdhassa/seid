@@ -1,6 +1,6 @@
 /* CSS */
 body {
-    margin: 10px;
+    margin: 0;
     font-family: 'Roboto', sans-serif;
     background-color: #000;
     color: #fff;
@@ -8,7 +8,7 @@ body {
 }
 
 section {
-    min-height: 85vh;
+    min-height: 85vh; /* Ensures consistent section height */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,7 +17,6 @@ section {
     padding: 50px 10px;
     transition: opacity 1s ease-in-out, transform 1s ease-in-out;
 }
-
 .hidden {
     opacity: 0;
     transform: translateY(50px);
@@ -60,16 +59,16 @@ header {
 
 .text-container {
     text-align: left;
-    left:200px;
-    margin-bottom:-100px;
+    left: 200px;
+    margin-bottom: -100px;
     flex: 1;
 }
 
 header .profile-image {
     width: 50%;
-    margin-left:-80px;
+    margin-left: -80px;
     max-width: 400px;
-    margin-bottom:200px;
+    margin-bottom: 200px;
     height: auto;
     border-radius: 50%;
 }
@@ -84,25 +83,10 @@ header h2 {
     margin-bottom: 100px;
 }
 
-.white-box {
-    display: inline-block;
-    background-color: #fff;
-    color: #000;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 1.2em;
-    text-align: center;
-}
-
 header p {
     font-size: 1em;
     line-height: 1.5;
     margin-bottom: -18px;
-}
-
-.art-section h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
 }
 
 .art-gallery {
@@ -113,10 +97,6 @@ header p {
     margin: 20px;
 }
 
-.art-item {
-    text-align: center;
-}
-
 .art-item img {
     width: 100%;
     height: auto;
@@ -125,56 +105,23 @@ header p {
 }
 
 footer {
-    background-color: #000;
+    margin-bottom: 0; /* Fix to prevent extra space */
     padding: 20px;
-    margin-bottom:1000px;
     text-align: left;
     width: 100%;
 }
 
-footer h2 {
-    font-size: 1.5em;
-    margin-bottom: -200px;
+/* Fixes for specific sections */
+#contact {
+    min-height: auto; /* Dynamically size based on content */
+    padding: 20px 10px;
+}
+#art {
+    min-height: auto; /* Dynamically size based on content */
+    padding: 20px 10px;
 }
 
-footer .contact-details {
-    font-size: 1em;
-    margin-bottom: -200px;
-}
-
-footer a.contact-btn {
-    display: inline-block;
-    font-size: 1.2em;
-    text-decoration: none;
-    color: #fff;
-    background: #333;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-
-footer a.contact-btn:hover {
-    background: #555;
-}
-
-.social-links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
-.social-links p {
-    font-size: 1em;
-    line-height: 1.5;
-}
-
-.social-logo {
-    font-size: 1.2em;
-    margin-left: 10px;
-}
-
+/* Media Query Adjustments */
 @media (max-width: 768px) {
     .intro-container {
         flex-wrap: nowrap;
@@ -187,7 +134,7 @@ footer a.contact-btn:hover {
 
     .logo {
         width: 50%;
-        top:-90px;
+        top: -90px;
     }
 
     .art-gallery {
