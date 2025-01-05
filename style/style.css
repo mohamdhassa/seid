@@ -14,7 +14,7 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 20px 15px;
+    padding: 0px 0px;
     transition: opacity 1s ease-in-out, transform 1s ease-in-out;
 }
 
@@ -44,7 +44,7 @@ header {
     top: -15px;
     left: 20px;
     width: 10%;
-    max-width: 150px;
+    max-width: 200px;
     height: auto;
 }
 
@@ -54,24 +54,25 @@ header {
     align-items: center;
     justify-content: space-between;
     text-align: left;
-    gap: 20px;
+    gap: 30px;
     width: 100%;
 }
 
 .text-container {
     text-align: left;
+    margin-bottom:-70px;
     flex: 1;
 }
 
 header .profile-image {
-    width: 30%;
-    max-width: 300px;
+    width: 40%;
+    max-width: 400px;
     height: auto;
     border-radius: 50%;
 }
 
 header h1 {
-    font-size: 2em;
+    font-size: 4em;
     margin-bottom: 10px;
 }
 
@@ -93,7 +94,7 @@ header h2 {
 header p {
     font-size: 1em;
     line-height: 1.5;
-    margin-bottom: 8px;
+    margin-bottom: -18px;
 }
 
 .art-section h2 {
@@ -191,7 +192,7 @@ footer a.contact-btn:hover {
 
 @media (min-width: 768px) {
     .logo {
-        width: 10%;
+        width: 110%;
     }
 
     .art-gallery {
